@@ -101,3 +101,4 @@ or
         - Securing endpoints to ensure users can only perform actions on their own data.
 - **Documentation**: Enhance the documentation to include detailed API specifications and usage examples.
 - **Configuration**: Enable flexible, environment-specific configurations and secure secrets management to streamline deployment and maintainability.
+- **Better Insights**: Provide better insights, sorting and filtering options for user. (Ex: filter based on Memo, Date, Type and Sort based on Date, Amount, etc)
