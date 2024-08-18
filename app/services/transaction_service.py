@@ -38,7 +38,7 @@ class TransactionService:
 
             # save transactions to the repository
             TransactionRepository.save_transactions(transactions)
-            return jsonify({"message": "Transactions uploaded successfully"}), 200
+            return jsonify({"message": "Transactions uploaded successfully"}), 201
         except Exception as e:
             return jsonify({"error": str(e)}), 500
 
