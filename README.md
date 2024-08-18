@@ -1,6 +1,10 @@
 # Summer Break Tax Report
+A submission by Nithin Sai Kirumani Jagadish
 
 This is a simple web service API that helps process income and expense data for tax purposes. It allows users to upload transaction data and generate reports. The system is designed to handle transactions, validate their data, and provide meaningful financial reports.
+
+## Repo
+This repo can be found at [https://github.com/ninjaasmoke/summber-break](https://github.com/ninjaasmoke/summber-break)
 
 ## Setup and Running
 
