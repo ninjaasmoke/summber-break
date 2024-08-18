@@ -54,6 +54,28 @@ The application will start at `http://127.0.0.1:5000`.
 - Upload Transactions: POST /transactions
 - Generate Report: GET /report
 
+### Testing
+1. Open a new terminal in same directory
+2. Activate the Virtual Environment
+mac/linux
+```bash
+source venv/bin/activate
+```
+
+windows
+```bash
+venv\Scripts\activate
+```
+3. Run pytest
+```bash
+pytest
+```
+or
+```bash
+./tests/test.sh 
+```
+
+
 ## Solution Approach and Assumptions
 - **Data Validation**: The solution uses a schema-based approach to validate transaction data. It ensures that transaction entries conform to expected formats.
 - **File Handling**: The solution handles file uploads and filters out comments from the CSV data.
