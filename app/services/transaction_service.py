@@ -34,7 +34,9 @@ class TransactionService:
                     validated_transaction = TransactionSchema.validate(row)
                     transactions.append(validated_transaction)
                 except ValueError as e:
-                    print(f"Skipping invalid transaction: {e}")
+                    # continue to skip invalid transactions?
+                    # print(f"Skipping invalid transaction: {e}")
+                    return jsonify({"error": str(e)}), 400
 
             # save transactions to the repository
             TransactionRepository.save_transactions(transactions)
