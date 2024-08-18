@@ -74,3 +74,4 @@ The application will start at `http://127.0.0.1:5000`.
         - Implementing role-based or attribute-based access controls.
         - Securing endpoints to ensure users can only perform actions on their own data.
 - **Documentation**: Enhance the documentation to include detailed API specifications and usage examples.
+- **Configuration**: Enable flexible, environment-specific configurations and secure secrets management to streamline deployment and maintainability.
